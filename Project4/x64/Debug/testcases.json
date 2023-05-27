@@ -1,0 +1,48 @@
+{
+	"testcases": [
+		{
+			"input": "http://example.com/xxx?id=1234&data_type=article&user=john",
+			"output": {
+				"id" :"1234",
+				"data_type": "article",
+				"user": "john"
+			}
+		},
+		{
+			"input": "https://bbs.csdn.net/forums/FreeZone?page=3",
+			"output": {
+				"page": "3"
+			}
+		},
+		{
+			"input": "https://duckduckgo.com/?q=c+programming+language&t=h_&ia=web",
+			"output": {
+				"q": "c+programming+language",
+				"t": "h_",
+				"ia": "web"
+			}
+		},
+		{
+			"input": "https://search.bilibili.com/all?vt=15514003&keyword=JAVA&from_source=webtop_search&spm_id_from=333.1007&search_source=5",
+			"output": {
+				"vt": "15514003",
+				"keyword": "JAVA",
+				 "from_source": "webtop_search",
+				"spm_id_from": "333.1007",
+				"search_source": "5"
+			}
+		},
+		{
+			"input": "https://www.youtube.com/results?search_query=c+language",
+			"output": {
+				"search_query": "c+language"
+			}
+		},
+		{
+			"input": "https://github.com/search?q=C",
+			"output": {
+				"q": "C"
+			}
+		}
+	]
+}
